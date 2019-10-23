@@ -23,8 +23,8 @@ cook_book = {
      {'ingridient_name': 'лайм', 'quantity': 20, 'measure': 'гр'},
     ]
 }
-person = int(input())
-menu = input()
+person = int(input('Введите количество гостей'))
+menu = input('Введите блюда через пробел:')
 menu = menu.split()
 count_s = 0
 count_p = 0
